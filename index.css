@@ -1,0 +1,496 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ @import url('http://fonts.cdnfonts.com/css/Disengaged');
+
+ .wrapper,html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 1.8em;
+  color: white;
+  background-color: rgb(13, 13, 51);
+ 
+ 
+}
+
+header{
+  position: fixed;
+  top: 0;left:0 ; right: 0;
+  height: 80px;
+  background-color: white;
+  padding: 0px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow:  0px 4px 4px 2px  lavenderblush ;
+  
+  
+}
+.logo-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+header .logo{
+ flex: 1;
+ height: 50px;
+ top: 3px;
+ margin-left: 25px;
+
+}
+
+
+header .label{
+   flex: 2;
+   margin-top: 10px;
+   margin-left:2px;
+   font-size: 24px;
+   font-family: 'Disengaged', sans-serif;
+   font-weight: bolder;
+   color: black;
+   text-decoration: none;
+   text-align: center;
+  
+}
+header .label:hover{
+  color:midnightblue;
+  transition: .8s;
+}
+
+header nav ul{
+  list-style: none;
+  display: inline;
+  overflow: hidden;
+ 
+  
+}
+
+header nav ul li{
+  position: relative;
+  float: left;
+  
+  
+}
+
+header nav ul li a{
+  font-size: 14px;
+  padding: 20px;
+  color: rgb(72, 72, 72);
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+}
+header nav ul li a:after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: .5px;
+  width: 0;
+  left: 0;
+  bottom: 24px;
+  transition: 0.8s;
+}
+header nav ul li a:hover{
+  color: midnightblue;
+}
+
+header nav ul li a:hover:after{
+  width: 100%;
+
+}
+
+
+
+.i,.ii,.iii,.iv,.v,.vi{
+  position: relative;
+  max-width: 100%;;
+  height: auto;
+  filter: brightness(.9);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
+}
+
+
+.i{
+  
+  min-height: 100%;
+  background-image: url('file:///C:/Users/Geekwise/Desktop/images/image3.jpg');
+ 
+}
+.i .datastring{
+  position: absolute;
+  text-align: center;
+  padding: 3em;
+  top: 7em;
+  left: 2em;
+  font-weight: bold;
+  font-size: 33px;
+  color: white;
+}
+
+
+
+
+
+
+.ii{
+  display: flex;
+  justify-content: space-around;
+  flex-flow:wrap ;
+  width: 100%;
+  height: auto;
+  background-color: #242526;
+
+}
+.ii .datastring{
+  position: absolute;
+  flex:1;
+  top: 15em;
+  left: 10em;
+ 
+ }
+.ii .cache011{
+  position: absolute;
+  float: right;
+  flex: 2;
+  left: 55em;
+  top: 8em; 
+}
+.datastring h1{
+  font-size: 58px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1em;
+}
+.ii .datastring p{
+ display: none;
+
+}
+.cache011 img{
+  width: 55vh;
+  height: 55vh;
+  border-width: 33px;
+  border-radius: 33vh;
+  border-style: solid;
+  border-top-color: whitesmoke;;
+  border-bottom-color:whitesmoke ;
+  border-left-color: rgb(211, 211, 211);
+  border-right-color: midnightblue;
+  padding: 12px;
+ 
+}
+
+.iii{
+  min-height: 400px;
+  top: 40em;
+  background-image: url('file:///C:/Users/Geekwise/Desktop/images/import-static-img-credit088.jpg');
+  z-index: -99;
+
+  /* opacity: .3; */
+}
+.iii .datastring h1{
+  position: absolute;
+  text-align: center;
+  top: 2em;
+  left: 12em;
+}
+
+
+.iv{
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #1f0a3a;
+  top: 38em;
+  
+  
+
+}
+
+ .cache013{
+  flex: 1;
+}
+
+
+
+.imgcache012{
+  position: absolute;
+  height:33rem;
+  top: 7em;
+  left: 2rem;
+  
+
+}
+.imgcache013{
+  position: absolute;
+  height: 180px;
+  top: 10em;
+  left: 23em;
+
+}
+
+.imgcache014{
+  position: absolute;
+  height: 180px;
+  top: 20rem;
+  left:8em;
+
+}
+
+.iv .datastring{
+ position: absolute;
+  flex:2;
+  bottom: 15em;
+  left: 50em;
+
+}
+
+
+.iv .datastring h1{
+  right: 74em;
+ 
+
+}
+.iv .datastring p{
+  top:15rem;
+  right:5rem;
+  font-family: poppins;
+  font-size: 18px;
+ }
+
+
+/* .v{
+
+  background-image: url('file:///C:/Users/Geekwise/Desktop/images/import-static-img-credit062.jpg');
+  min-height: 100%;
+} */
+
+.v .cache014{
+
+  position: absolute;
+
+}
+
+.v .container header{
+
+  text-align: center;
+}
+.vi{
+  top: 90rem;
+  background-color: rgb(237, 241, 251);
+ 
+
+}
+.vi  {
+  position: relative;
+  width: 100%;
+  height: auto;
+  flex: 1;
+  top: 8rem;
+  left: 3rem;
+ 
+}
+
+.vi .cache{
+  position: relative;
+  flex: 2;
+  top: 4rem;
+  left: 8rem;
+
+}
+.imgcache015{
+position: relative;
+width: 33rem;
+height:33rem;
+left: 3rem;
+
+
+
+}
+.imgcache016{
+position: relative;
+height: 180px;
+bottom: 5rem;
+right: 5rem;
+
+
+}
+
+.imgcache017{
+position: relative;
+height: 180px;
+bottom: 5rem;
+right:45rem;
+
+}
+
+/* Text Animations */
+
+
+.ii .datastring h1,p{
+  animation: text 3s 1;
+  
+}
+@keyframes text{
+  0%{
+    color: #666;
+    margin-top: 40%;
+  }
+  30%{
+    margin-bottom: -40px;
+  }
+  85%{
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 970px) {
+  .wrapper .btn{
+    display: block;
+  }
+  .wrapper ul li{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #242526;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+    transition: all 0.3s ease;
+  }
+  header .logo-container .logo{
+    position: fixed;
+    top: 12px;
+    left: 400px;
+  }
+  header .logo-container .label{
+    position: fixed;
+    top: 12px;
+    left: 480px;
+  }
+  .i .datastring{
+   display: none;
+  }
+  .ii .cache011{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-height: 0px;
+    overflow: hidden;
+  }
+  .ii .datastring h1{
+    position: relative;
+    text-align: center;
+  }
+  .ii .datastring p{
+    position: relative;
+    display: inline-block;
+    top: 1em;
+    left: -2em;
+    text-align: center;
+  }
+  .iii .datastring h1{
+    display: block;
+    left: 7em;
+  }
+
+  .iv  .cache013{
+   display: none;
+  }
+
+  .iv  .datastring{
+    position: absolute;
+    left: 15em;
+    top: 15em;
+    text-align: center;
+   }
+
+   .iv  .datastring p{
+    position: relative;
+    display: inline-block;
+    left: -1em;
+    top: 1em;
+    
+   }
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+  }
+  #menu-btn:checked ~ .nav-links{
+    left: 0%;
+  }
+  #menu-btn:checked ~ .btn.menu-btn{
+    display: none;
+  }
+  #close-btn:checked ~ .btn.menu-btn{
+    display: block;
+  }
+  nav ul li{
+    margin: 15px 10px;
+  }
+   nav ul li a{
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+  .nav-links .drop-menu{
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+  #showDrop:checked ~ .drop-menu,
+  #showMega:checked ~ .mega-box{
+    max-height: 100%;
+  }
+  nav ul li .desktop-item{
+    display: none;
+  }
+  nav ul li .mobile-item{
+    display: block;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .nav-links .mobile-item:hover{
+    background: #3A3B3C;
+  }
+
+  
+}
+nav input{
+  display: none;
+}
