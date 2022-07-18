@@ -3,6 +3,8 @@
 *{
   max-width: 1980px;
   margin: 0;
+}
+ .wrapper,html{
   height: 100%;
   margin: 0;
   padding: 0;
