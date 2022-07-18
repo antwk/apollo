@@ -1,14 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  @import url('http://fonts.cdnfonts.com/css/Disengaged');
 *{
-  width: 100%;
-  min-width: 1000px;
-  height: auto;
+  max-width: 1980px;
+  margin: 0;
 }
  .wrapper,html{
-  width: 90%;
-  height: auto;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
