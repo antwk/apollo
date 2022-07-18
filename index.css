@@ -6,7 +6,9 @@
   height: auto;
 }
  .wrapper,html{
-  margin: 0;
+  width: 90%;
+  height: auto;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
