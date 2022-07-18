@@ -779,13 +779,13 @@ header nav ul li a:hover:after{
   transform: scale(1.4, 3.2)
 }
 
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
   .header {
     width: 900px;
   }
 
   
-}
+} */
 
 
 
