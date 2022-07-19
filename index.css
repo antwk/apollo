@@ -115,7 +115,6 @@ header nav ul li a:hover:after{
 
 .i,.ii,.iii,.iv,.v,.vi,.vii,.viii{
   position: relative;
-  display: block;
   min-width: 100%;
   height: auto;
   filter: brightness(.9);
