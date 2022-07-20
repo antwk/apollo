@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
  .wrapper,html{
+  width: 1265px;
   height: 100%;
   text-transform: capitalize;
   text-decoration: none;
