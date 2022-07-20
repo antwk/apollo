@@ -1,12 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  @import url('http://fonts.cdnfonts.com/css/Disengaged');
 *{
-  width: max-content;
-  margin: 0;
-  padding: 0;
+  min-width: 1200px;
 }
  .wrapper,html{
   height: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
   text-decoration: none;
@@ -115,7 +115,7 @@ header nav ul li a:hover:after{
 
 .i,.ii,.iii,.iv,.v,.vi,.vii,.viii{
   position: relative;
-  min-width: 100%;
+  max-width: 100%;;
   height: auto;
   filter: brightness(.9);
   background-position: center;
