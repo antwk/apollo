@@ -671,7 +671,7 @@ header nav ul li a:hover:after{
 .footnote{
   position: absolute;
   top: 23em;
-  left: 10em;
+  left: 5em;
 }
 .footnote .footnote-text{
   margin-top: 1px;
