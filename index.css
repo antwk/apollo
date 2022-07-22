@@ -129,7 +129,7 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: column;
   min-height: 700px;
-  top: 10em;
+  top: 8em;
  filter: brightness(-5);
 }
 .i .datastring{
@@ -308,7 +308,7 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: row;
   top: 3em;
-  background-color: #f5f5ff
+  background-color: rgb(251, 251, 251);
   
 
 }
