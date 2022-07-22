@@ -136,6 +136,7 @@ header nav ul li a:hover:after{
   position: absolute;
   top:8em;
   left: 12em;
+  z-index: 5000;
   
 }
 .i .datastring h1{
@@ -515,8 +516,9 @@ header nav ul li a:hover:after{
   width: 360px;
   height: 300px;
   border-style: solid;
-  border-radius: 50%;
-  background-color: #242526;
+  border-color: transparent;
+  border-radius: 74px;
+  
 }
 .vii .datastring{
   position: absolute; 
