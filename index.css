@@ -135,7 +135,7 @@ header nav ul li a:hover:after{
 .i .datastring{
   position: absolute;
   top:18em;
-  left: 18em;
+  left: 15em;
   z-index: 5000;
   
 }
@@ -377,11 +377,12 @@ header nav ul li a:hover:after{
 }
 .v .datastring{
   position: absolute;
+  top:2em;
+  left:10em ;
 }
 .v .datastring h1{
  
-  margin-top:2em;
-  margin-left:12em ; 
+   
   font-family:'Poppins', 'san-serif'; 
   font-size:48px; 
   font-weight: bold; 
@@ -541,14 +542,14 @@ header nav ul li a:hover:after{
 
   position: absolute;
   top: 4em;
-  left: 12em;
+  left: 15em;
   font-weight: bold;
 
 }
 .viii .cache016{
   position: absolute;
   top: 22em;
-  left: 41.5em;
+  left: 44em;
 }
 .viii .cache016 .draw-border{
   position: absolute;
@@ -578,8 +579,8 @@ header nav ul li a:hover:after{
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 23em;
-  left: -5em;
+  top: 12em;
+  left: -2em;
 }
 .cache016 .img034{
   flex: 1;
