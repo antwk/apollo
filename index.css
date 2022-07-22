@@ -546,12 +546,10 @@ header nav ul li a:hover:after{
 }
 .viii .cache016{
   position: absolute;
-  top: 22em;
-  left: 44em;
+  top: 8em;
+  left: 35em;
 }
 .viii .cache016 .draw-border{
-  position: absolute;
-  top: 4em;
   width: 200px;
   height: 200px;
   border-style: solid;
