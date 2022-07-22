@@ -194,7 +194,7 @@ header nav ul li a:hover:after{
   display: flex;
   justify-content: space-around;
   min-height:700px;
-  top: 4em;
+  top: 8em;
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
@@ -309,7 +309,7 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: row;
   top: 3em;
-  background-color: #f4f0ff
+  background-color: #f6f5ff
   
 
 }
