@@ -692,7 +692,7 @@ header nav ul li a:hover:after{
   width: 40px;
   height: 35px;
   left: 12.5em;
-  border-radius: 0;
+  border-radius: 33px;
 }
 .footnote{
   position: absolute;
