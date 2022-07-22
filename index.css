@@ -377,11 +377,11 @@ header nav ul li a:hover:after{
 }
 .v .datastring{
   position: absolute;
-  
 }
 .v .datastring h1{
-  margin-top: 10em;
-   
+ 
+  margin-top:2em;
+  margin-left:7em ; 
   font-family:'Poppins', 'san-serif'; 
   font-size:48px; 
   font-weight: bold; 
@@ -391,18 +391,19 @@ header nav ul li a:hover:after{
 
 }
 .v .datastring h2{
-  margin-left: 8em;
+  margin-top: 3em;
+  margin-left: 3em;
   font-size: 44px;
   font-family: 'poppins';
   color: rgb(115, 115, 115)
 }
 .v .datastring p{
-  margin-left: 8em;
+  margin-top: 1em;
+  margin-left: 7em;
   font-family: 'poppins';
   font-size: 18px;
   color: black;
 }
-
  .cache014{
   position: absolute;
   flex: 2;
