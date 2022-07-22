@@ -451,12 +451,12 @@ header nav ul li a:hover:after{
  .vi .cache015{
   position: absolute;
   flex: 1;
+  top: 25em;
+  left: 3em;
 
 }
 .vi .card{
   height: 275px;
-  top: 15em;
-  left: 3em;
   padding: 8px 8px 1px 1px;
   background-color: white;
   border-top-color: orange;
