@@ -196,7 +196,7 @@ header nav ul li a:hover:after{
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
-  background-color: rgb(240, 240, 255);
+  background-color: white;
   
 
 
