@@ -150,7 +150,7 @@ header nav ul li a:hover:after{
   overflow: hidden;
 }
 .i .cache010 .carousel-item {
-  height: 200px;
+  height: 500px;
   width: 100%;
   
   }
@@ -207,6 +207,7 @@ header nav ul li a:hover:after{
   flex:1;
   top: 10em;
   left: 10em;
+  color: black;
  
  }
 .ii .datastring h1{
