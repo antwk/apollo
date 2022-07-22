@@ -129,7 +129,7 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: column;
   min-height: 700px;
-  top: 8em;
+  top: 4em;
  filter: brightness(-5);
 }
 .i .datastring{
@@ -576,8 +576,8 @@ header nav ul li a:hover:after{
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 10em;
-  left: 0em;
+  top: 23em;
+  left: -5em;
 }
 .cache016 .img034{
   flex: 1;
