@@ -130,7 +130,7 @@ header nav ul li a:hover:after{
   flex-direction: column;
   min-height: 700px;
   top: 5em;
-  /* background-image: url('file:///C:/Users/Geekwise/Desktop/images/image3.jpg'); */
+ filter: brightness(50px);
 }
 .i .datastring{
   position: absolute;
@@ -147,15 +147,16 @@ header nav ul li a:hover:after{
 }
 .i .cache010{
   position: absolute;
-  overflow: hidden;
+  
 }
 .i .cache010 .carousel-item {
-  height: 500px;
+  height: 700px;
   width: 100%;
   
   }
   .i .cache010 .carousel-item img {
   width: 100%;
+  overflow: hidden;
  
   
   }
@@ -196,7 +197,6 @@ header nav ul li a:hover:after{
   flex-direction:row;
   z-index: -1001;
   background-color: rgb(240, 240, 255);
-  border-style: solid;
   
 
 
@@ -514,6 +514,8 @@ header nav ul li a:hover:after{
 .vii .fetch-img .img020{
   width: 360px;
   height: 300px;
+  border-style: solid;
+  border-radius: 33px;
   background-color: #242526;
 }
 .vii .datastring{
