@@ -134,7 +134,7 @@ header nav ul li a:hover:after{
 }
 .i .datastring{
   position: absolute;
-  top:8em;
+  top:18em;
   left: 12em;
   z-index: 5000;
   
@@ -165,7 +165,7 @@ header nav ul li a:hover:after{
     position: absolute;
     width:180px;
     height:70px;
-    top: 23em;
+    top: 28em;
     left: 33em;
   }
 
@@ -175,6 +175,7 @@ header nav ul li a:hover:after{
     color:white;
     font-size: 23px;
     text-decoration: none;
+    z-index: 900;
     
   }
    .fa-solid.fa-angles-down{
@@ -193,7 +194,7 @@ header nav ul li a:hover:after{
   display: flex;
   justify-content: space-around;
   min-height:700px;
-  top: 3em;
+  top: 4em;
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
@@ -308,7 +309,7 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: row;
   top: 3em;
-  background-color: rgb(251, 251, 251);
+  background-color: #f4f0ff
   
 
 }
