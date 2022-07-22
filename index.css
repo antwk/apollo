@@ -515,7 +515,7 @@ header nav ul li a:hover:after{
   width: 360px;
   height: 300px;
   border-style: solid;
-  border-radius: 33px;
+  border-radius: 50%;
   background-color: #242526;
 }
 .vii .datastring{
