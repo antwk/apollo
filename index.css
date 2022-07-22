@@ -158,6 +158,7 @@ header nav ul li a:hover:after{
   .i .cache010 .carousel-item img {
   width: 100%;
   overflow: hidden;
+  z-index: -1;
  
   
   }
