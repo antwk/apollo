@@ -129,8 +129,8 @@ header nav ul li a:hover:after{
   display: flex;
   flex-direction: column;
   min-height: 700px;
-  top: 5em;
- filter: brightness(50px);
+  top: 10em;
+ filter: brightness(75);
 }
 .i .datastring{
   position: absolute;
@@ -190,10 +190,9 @@ header nav ul li a:hover:after{
     }
 
 .ii{
-  min-height: 500px;
   display: flex;
-  justify-content: space-around;
   min-height:700px;
+  justify-content: space-around;
   top: 8em;
   flex-flow:wrap ;
   flex-direction:row;
@@ -573,12 +572,12 @@ header nav ul li a:hover:after{
   font-family: 'Disengaged', Helvetica, sans-serif;
   font-size: 88px;
  }
- .cache016 .brandbucket000{
+ .viiii .cache016 .brandbucket000{
   position: absolute;
   display: flex;
   flex-direction: row;
   top: 10em;
-  left: 0px;
+  left: -4em;
 }
 .cache016 .img034{
   flex: 1;
