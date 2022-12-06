@@ -321,7 +321,7 @@ border-radius: 12px;
   display: flex;
   flex-direction: row;
   top: 3em;
-  background-color: rgb(246, 244, 255) 
+  background-image: linear-gradient(to right, rgba(32, 20, 54, 0.923), rgb(25, 12, 73));;
   
 
 }
