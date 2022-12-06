@@ -299,11 +299,11 @@ header nav ul li a:hover:after{
   position: absolute;
   flex: 2;
   top: 24em;
-  left: 24em;
+  left: 44em;
 }
 .cache016 img{
-  width: 44vh;
-  height: 44vh;
+  width: 70vh;
+  height: 70vh;
 }
 
 
