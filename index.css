@@ -281,7 +281,7 @@ header nav ul li a:hover:after{
 .iii .datastring{
   position: absolute;
   top: 12em;
-  left: 5em;
+  left: -5em;
   
 
 }
