@@ -269,7 +269,7 @@ header nav ul li a:hover:after{
   transition: .5s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  background-color: slateblue;
+  background-color: white
 
   /* opacity: .3; */
 }
@@ -288,10 +288,10 @@ header nav ul li a:hover:after{
 }
 .iii .datastring h1{
   text-align: center;
-  color: white;
+  color: black;
 }
  .cache016{
-  
+  position: absolute;
   flex: 2;
 }
 .imgcache876{
