@@ -266,10 +266,10 @@ border-radius: 12px;
 }
 #sendalert{
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 300px;
+  height: 300px;
   top: 50px;
-  left: 150px;
+  left: 300px;
   border-radius: 12px;
 }
 
