@@ -22,7 +22,7 @@ header{
   position: fixed;
   top: 0;left:0 ; right: 0;
   height: 80px;
-  background-color: rgb(10, 5, 28);
+  background-color: white;
   padding: 0px 8%;
   display: flex;
   align-items: center;
@@ -57,13 +57,13 @@ header .label{
    font-size: 24px;
    font-family: 'Disengaged', sans-serif;
    font-weight: bolder;
-   color: white;;
+   color: black;;
    text-decoration: none;
    text-align: center;
   
 }
 header .label:hover{
-  color:white;
+  color:lightgray;
   transition: .8s;
 }
 
@@ -91,7 +91,7 @@ header nav ul li a{
   text-align: center;
 
 }
-/* header nav ul li a:after{
+header nav ul li a:after{
   content: "";
   position: absolute;
   background-color: white;
@@ -100,7 +100,7 @@ header nav ul li a{
   left: 0;
   bottom: 24px;
   transition: 0.8s;
-} */
+}
 header nav ul li a:hover{
   color: white;
 }
