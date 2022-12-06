@@ -294,6 +294,8 @@ header nav ul li a:hover:after{
 }
 .iii .datastring{
   position: absolute;
+  width: auto;
+  height: auto;
   flex: 1;
   top: 12em;
   left: 12em;
