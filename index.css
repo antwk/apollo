@@ -268,7 +268,7 @@ header nav ul li a:hover:after{
 .iii{
   min-height: 500px;
   top: 3em;
-  background-image: url('images/import-static-img-credit088.jpg');
+  /* background-image: url('images/import-static-img-credit088.jpg'); */
   z-index: -99;
   transform: scale(1);
   transition: .5s ease-in-out;
