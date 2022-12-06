@@ -288,14 +288,15 @@ header nav ul li a:hover:after{
 }
 .iii .datastring{
   position: absolute;
- flex: 1;
+  flex: 1;
   top: 12em;
-  left: 10em;
+  left: 1em;
   
 
 }
 .iii .datastring h1{
-  left: -4em;
+  position: absolute;
+ 
   color: black;
 }
  .cache016{
