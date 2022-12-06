@@ -106,7 +106,7 @@ header nav ul li a:hover{
 }
 
 header nav ul li a:hover:after{
-  width: 50%;
+  width: 100%;
 
 }
 
@@ -295,15 +295,16 @@ header nav ul li a:hover:after{
   text-align: center;
   color: white;
 }
-.iii .cache016{
-  position: absolute;
+ .cache016{
+  
   flex: 2;
-  top: 24em;
-  left: 44em;
 }
-.cache016 img{
-  width: 100%;
-  height: 100%;
+.imgcache876{
+  position: absolute;
+  top: 7em;
+  left: 5em;
+  height: 33rem;
+
 }
 
 
