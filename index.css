@@ -269,6 +269,7 @@ header nav ul li a:hover:after{
   transition: .5s ease-in-out;
   cursor: pointer;
   overflow: hidden;
+  background-color: slateblue;
 
   /* opacity: .3; */
 }
