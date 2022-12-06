@@ -260,13 +260,13 @@ header nav ul li a:hover:after{
   border-radius: 12px;
 }
 #email{
-
+height: 23em;
   border-radius: 12px;
   
 }
 #sendalert{
   position: absolute;
-  left: 18em;
+  left: 12em;
   border-radius: 12px;
 }
 
