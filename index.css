@@ -94,7 +94,7 @@ header nav ul li a{
 header nav ul li a:after{
   content: "";
   position: absolute;
-  background-color: white;
+  background-color: black;
   height: .5px;
   width: 0;
   left: 0;
@@ -102,7 +102,7 @@ header nav ul li a:after{
   transition: 0.8s;
 }
 header nav ul li a:hover{
-  color: white;
+  color: blue;
 }
 
 header nav ul li a:hover:after{
