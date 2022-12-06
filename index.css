@@ -261,7 +261,7 @@ header nav ul li a:hover:after{
 .iii{
   display: flex;
   flex-direction: row;
-  min-height: 500px;
+  min-height: 800px;
   top: 3em;
   /* background-image: url('images/import-static-img-credit088.jpg'); */
   z-index: -99;
