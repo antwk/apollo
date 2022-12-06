@@ -674,12 +674,12 @@ border-radius: 12px;
  
 }
 .footer-title{
- font-size: 18px;
+ font-size: 23px;
  text-align: center;
 }
 .footer-text{
   margin-top: 1em;
-  font-size: 23px;
+  font-size: 18px;
   color: white;
 }
 .footer-text a{
@@ -691,7 +691,7 @@ border-radius: 12px;
 }
  .ix .footnote .footnote-text{
   position: relative;
-  margin-top: 2em;
+  margin-top: -2em;
   line-height: 1.5em;
 }
 
