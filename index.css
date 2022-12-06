@@ -102,7 +102,7 @@ header nav ul li a:after{
   transition: 0.8s;
 }
 header nav ul li a:hover{
-  color: white;
+  color: black;
 }
 
 header nav ul li a:hover:after{
@@ -235,7 +235,7 @@ header nav ul li a:hover:after{
   width: 60vh;
   height: 60vh;
   border-width: 33px;
-  border-radius: 33vh;
+  border-radius: 45vh;
   border-style: solid;
   border-top-color: whitesmoke;;
   border-bottom-color:whitesmoke ;
