@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  @import url('http://fonts.cdnfonts.com/css/Disengaged');
 *{
   margin: 0;
@@ -22,7 +22,7 @@ header{
   position: fixed;
   top: 0;left:0 ; right: 0;
   height: 80px;
-  background-color: white;
+  background-color: rgb(10, 5, 28);
   padding: 0px 8%;
   display: flex;
   align-items: center;
@@ -57,13 +57,13 @@ header .label{
    font-size: 24px;
    font-family: 'Disengaged', sans-serif;
    font-weight: bolder;
-   color: black;;
+   color: white;;
    text-decoration: none;
    text-align: center;
   
 }
 header .label:hover{
-  color:lightgray;
+  color:white;
   transition: .8s;
 }
 
@@ -91,7 +91,7 @@ header nav ul li a{
   text-align: center;
 
 }
-header nav ul li a:after{
+/* header nav ul li a:after{
   content: "";
   position: absolute;
   background-color: white;
@@ -100,9 +100,9 @@ header nav ul li a:after{
   left: 0;
   bottom: 24px;
   transition: 0.8s;
-}
+} */
 header nav ul li a:hover{
-  color: black;
+  color: white;
 }
 
 header nav ul li a:hover:after{
@@ -812,7 +812,6 @@ header nav ul li a:hover:after{
   .header {
     width: 900px;
   }
-
   
 } */
 
@@ -949,8 +948,3 @@ header nav ul li a:hover:after{
     background: #3A3B3C;
   }
 
-  
-}
-nav input{
-  display: none;
-}
