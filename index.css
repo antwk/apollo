@@ -57,7 +57,7 @@ header .label{
    font-size: 24px;
    font-family: 'Disengaged', sans-serif;
    font-weight: bolder;
-   color: white;;
+   color: black;;
    text-decoration: none;
    text-align: center;
   
@@ -948,3 +948,4 @@ header nav ul li a:hover:after{
     background: #3A3B3C;
   }
 
+}
