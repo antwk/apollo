@@ -51,74 +51,7 @@
       }
       window.addEventListener("scroll", reveal);
      
-     /* rckt to top script */
-      jQuery(window).scroll(function(){
-    if(jQuery(window).scrollTop()<50){
-        jQuery('#rocketmeluncur').slideUp(500);
-    }else{
-        jQuery('#rocketmeluncur').slideDown(500);
-    }
-    var ftrocketmeluncur = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0];
-    var scrolltoprocketmeluncur = $('rocketmeluncur');
-var viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
-var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
-var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
-var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
-if (basewrocketmeluncur < 1000) {
-var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
-leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
-scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
-} else {
-scrolltoprocketmeluncur.style.left = 'auto';
-scrolltoprocketmeluncur.style.right = '10px';
-}
-})
-
-jQuery('#rocketmeluncur').click(function(){
-    jQuery("html, body").animate({ scrollTop: '0px',display:'none'},{
-            duration: 600,  
-            easing: 'linear'
-        });
-    
-    var self = this;
-    this.className += ' '+"launchrocket";
-    setTimeout(function(){
-      self.className = 'showrocket';
-    },800)
-});
-//Deploy Alternate rckt script 
-var mybutton = document.getElementById("sendalert");
-
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-// Bind your button click, scroll direction and effect speed
-document.getElementById("sendalert").onclick = function() {
-  scrollTo(0, 58000); // it will take 8 seconds to reach to top.
-}
-//Send mailto on click
-$(document).ready(function() {
-    $('#sendalert').click(function() {
-        $('#fr1').attr('action',
-                       'mailto:test@test.com?subject=' +
-                       $('#email').val() );
-        $('#fr1').submit();
-    });
-});
+     
 
     </script>
     <title> Appstate | Welcome to the future of real estate investing &trade; </title>
