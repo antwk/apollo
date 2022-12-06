@@ -250,11 +250,14 @@ header nav ul li a:hover:after{
 }
 
 
-#fr011{
+.form011{
   position: absolute;
   top: 12em;
   border-color:white;
   font-size:23px;
+}
+#fr011{
+  border-radius: 12px;
 }
 
 
