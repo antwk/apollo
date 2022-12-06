@@ -91,16 +91,16 @@ header nav ul li a{
   text-align: center;
 
 }
-/* header nav ul li a:after{
+header nav ul li a:after{
   content: "";
   position: absolute;
-  background-color: white;
+  background-color: blue;
   height: .5px;
   width: 0;
   left: 0;
   bottom: 24px;
   transition: 0.8s;
-} */
+}
 header nav ul li a:hover{
   color: white;
 }
