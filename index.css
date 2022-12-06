@@ -250,20 +250,13 @@ header nav ul li a:hover:after{
 }
 
 
-.ii .btn.btn-primary{
+#fr011{
   position: absolute;
+  top: 12em;
   border-color:white;
-  background-color: rgb(41, 41, 41);
   font-size:23px;
-  animation: btn 2s infinite forwards;
-
 }
-@keyframes btn {
-  0%{transform: scale(1);}
-  25%{transform: scale(1.1);}
 
-  
-}
 
 .iii{
   display: flex;
