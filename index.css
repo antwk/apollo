@@ -199,7 +199,7 @@ header nav ul li a:hover:after{
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
-  background-color: rgb(242, 235, 255);
+  background-color: rgb(26, 20, 65)
   
 
 
@@ -210,7 +210,7 @@ header nav ul li a:hover:after{
   flex:1;
   top: 10em;
   left: 10em;
-  color: black;
+  color: white;
  
  }
 .ii .datastring h1{
@@ -277,7 +277,7 @@ header nav ul li a:hover:after{
   transition: .5s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  background-color: rgb(26, 20, 65)
+  background-color: rgb(246, 244, 255)
 
   /* opacity: .3; */
 }
@@ -305,8 +305,8 @@ header nav ul li a:hover:after{
 }
 .imgcache876{
   position: absolute;
-  top: 15em;
-  left: 24em;
+  top: 12em;
+  left: 30em;
   height: 24rem;
   border-radius: 55px;
 
