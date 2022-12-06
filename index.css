@@ -259,11 +259,17 @@ header nav ul li a:hover:after{
 #fr011{
   border-radius: 12px;
 }
+#email{
+
+  border-radius: 12px;
+  
+}
 #sendalert{
   position: absolute;
-  left: 12em;
+  left: 20em;
   border-radius: 12px;
 }
+
 
 
 .iii{
