@@ -261,7 +261,7 @@ header nav ul li a:hover:after{
 }
 #sendalert{
   position: absolute;
-  left: -12em;
+  left: 3em;
   border-radius: 12px;
 }
 
