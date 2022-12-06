@@ -280,11 +280,8 @@ border-radius: 12px;
   top: 3em;
   /* background-image: url('images/import-static-img-credit088.jpg'); */
   z-index: -99;
-  /* transform: scale(1);
-  transition: .5s ease-in-out;
-  cursor: pointer;
-  overflow: hidden;
-  background-color: rgb(246, 244, 255) */
+ 
+  background-color: rgb(31, 30, 39) 
 
   /* opacity: .3; */
 }
@@ -324,7 +321,7 @@ border-radius: 12px;
   display: flex;
   flex-direction: row;
   top: 3em;
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(246, 244, 255) 
   
 
 }
