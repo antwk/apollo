@@ -298,10 +298,11 @@ header nav ul li a:hover:after{
 .iii .cache016{
   position: absolute;
   flex: 2;
+  left: 12em;
 }
-.iii .cache016 .img{
-  width: 44vh;
-  height: 44vh;
+.cache016 img{
+  width: 12vh;
+  height: 12vh;
 }
 
 
