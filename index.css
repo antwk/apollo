@@ -259,6 +259,11 @@ header nav ul li a:hover:after{
 #fr011{
   border-radius: 12px;
 }
+#sendalert{
+  position: absolute;
+  left: 0%;
+  border-radius: 12px;
+}
 
 
 .iii{
