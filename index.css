@@ -63,7 +63,7 @@ header .label{
   
 }
 header .label:hover{
-  color:white;
+  color:black;
   transition: .8s;
 }
 
