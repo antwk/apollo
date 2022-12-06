@@ -266,7 +266,8 @@ border-radius: 12px;
 }
 #sendalert{
   position: absolute;
-  left: 18em;
+  top: 2em;
+  left: 15em;
   border-radius: 12px;
 }
 
