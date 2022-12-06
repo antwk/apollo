@@ -277,7 +277,7 @@ header nav ul li a:hover:after{
   transition: .5s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  background-color: white
+  background-color: rgb(224, 219, 255)
 
   /* opacity: .3; */
 }
