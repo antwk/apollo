@@ -662,7 +662,7 @@ border-radius: 12px;
 }
 
 .ix{
-  min-height: 800px;
+  min-height: 1000px;
   background-color: black;
   color: white;
 }
@@ -678,7 +678,9 @@ border-radius: 12px;
  text-align: center;
 }
 .footer-text{
-  margin-top: 2em;;
+  margin-top: 1em;
+  font-size: 23px;
+  color: white;
 }
 .footer-text a{
   text-decoration: none;
