@@ -199,7 +199,7 @@ header nav ul li a:hover:after{
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
-  background-color: rgb(26, 20, 65)
+   background-image: linear-gradient(to right, #d1d1d1)
   
 
 
