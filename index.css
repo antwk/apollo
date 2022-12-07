@@ -199,7 +199,7 @@ header nav ul li a:hover:after{
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
-  background-color: rgb(245, 243, 255)
+  background-color: rgb(26, 20, 65)
   
 
 
@@ -266,8 +266,9 @@ border-radius: 12px;
 }
 #sendalert{
   position: absolute;
+  width: 3em;
   top: 20px;
-  left: 200px;
+  left: 300px;
   border-radius: 12px;
 }
 
