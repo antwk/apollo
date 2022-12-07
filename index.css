@@ -22,7 +22,7 @@ header{
   position: fixed;
   top: 0;left:0 ; right: 0;
   height: 80px;
-  background-color:white;
+  background-color:rgb(7, 6, 42);
   padding: 0px 8%;
   display: flex;
   align-items: center;
@@ -57,13 +57,13 @@ header .label{
    font-size: 24px;
    font-family: 'Disengaged', sans-serif;
    font-weight: bolder;
-   color: black;;
+   color: silver;;
    text-decoration: none;
    text-align: center;
   
 }
 header .label:hover{
-  color:black;
+  color:white;
   transition: .8s;
 }
 
@@ -94,7 +94,7 @@ header nav ul li a{
 header nav ul li a:after{
   content: "";
   position: absolute;
-  background-color: blue;
+  background-color: white;
   height: .5px;
   width: 0;
   left: 0;
@@ -199,7 +199,7 @@ header nav ul li a:hover:after{
   flex-flow:wrap ;
   flex-direction:row;
   z-index: -1001;
-   background-image: linear-gradient(to right, #d1d1d1)
+  background-image: linear-gradient(to right, rgb(210, 210, 210), rgb(42, 36, 88));
   
 
 
@@ -551,8 +551,8 @@ border-radius: 12px;
 }
 .viii .datastring h1{
   position: absolute;
-  top: 14em;
-  left: 18em;
+  top: 8em;
+  left: 8em;
   font-weight: bold;
   text-align: center;
 
