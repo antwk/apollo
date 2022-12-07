@@ -283,7 +283,7 @@ border-radius: 12px;
   /* background-image: url('images/import-static-img-credit088.jpg'); */
   z-index: -99;
  
-  background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(215, 215, 215), rgb(26, 20, 65);
+  background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(215, 215, 215), rgb(26, 20, 65));
 
   /* opacity: .3; */
 }
