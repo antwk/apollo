@@ -267,6 +267,7 @@ border-radius: 12px;
 #sendalert{
   position: absolute;
   width: 10em;
+  height: max-content;
   top: 35px;
   left: 190px;
   border-radius: 12px;
